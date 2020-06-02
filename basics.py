@@ -1,4 +1,4 @@
-student_grades = [9, 8, 7 ]
+student_grades = [9, 8, 7 ] #List Example
 mySum = sum(student_grades)
 length = len(student_grades)
 mean = mySum / length
@@ -20,6 +20,14 @@ length2 = len (student_grades2)
 mean2 = mySum2 / length2
 print(mean2)
 print (student_grades2.keys())
+
+#Creating Tuple #Tuples are immutable, difference to list 
+#cannot use methods like using in list example list.remove()
+#Tuples are faster than list
+moday_temperatures = { 2,4,5}
+print("monday teperatures are:",moday_temperatures)
+
+#Creating List
 #This line is edited Online
 #this line is edited from PC github
 #this line is from laptop Win
